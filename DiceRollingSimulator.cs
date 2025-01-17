@@ -18,7 +18,7 @@ namespace mission2
         //method to calculate each roll
         public int[] SimulateRolls(int numRolls)
         {
-            // creates an array in which index 0 and 1 will not be used.
+            // creates an array in which index 0 and 1 will not be used for simplicity
             int[] rollCounts = new int[13]; 
 
             // for loop that iterates through the number of rolls passed to the method
